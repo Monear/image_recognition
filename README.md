@@ -65,4 +65,5 @@ Prompt: How many people are in this picuture?
 
 
 Reponse: There are at least four people visible in the picture. There is one person in the foreground who appears to be walking, and a group of three people standing together further down the street.
+
 usage=CompletionUsage(completion_tokens=37, prompt_tokens=101, total_tokens=138)
