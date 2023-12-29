@@ -55,3 +55,14 @@ It's not possible to discern any individuals in this image due to the distance a
 "detail": "high"
 
 In the image, there doesn't appear to be any individuals visible given the resolution and the distance from which the photo was taken. The focus is on a parked aircraft surrounded by airport equipment and vehicles, so it's not possible to discern any people in the scene from this perspective.
+
+Image:
+
+![image](https://github.com/Monear/image_recognition/assets/60865948/1caf9fcb-f014-4d1e-89f9-6015740b7f4c)
+
+
+Prompt: How many people are in this picuture?
+
+
+Reponse: There are at least four people visible in the picture. There is one person in the foreground who appears to be walking, and a group of three people standing together further down the street.
+usage=CompletionUsage(completion_tokens=37, prompt_tokens=101, total_tokens=138)
