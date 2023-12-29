@@ -13,17 +13,19 @@ After Image 6, token counts are included. When the model couldn't detect humans 
 - **High Resolution:**
   Enables “high res” mode, allowing the model to see the low-res image and then creates detailed crops of input images as 512px squares. Each detailed crop uses twice the token budget (65 tokens) for a total of 129 tokens.
 
-## Pricing
-
-As an idea for pricing, you can find information [here](https://openai.com/pricing).
-
-![Pricing Screenshot](https://github.com/Monear/image_recognition/assets/60865948/016f2691-8405-4fa5-8169-1210a5c1173f)
-
 ## Cost Estimation
 
 My estimation is that the cost per 10 photos on a 'low' setting would be about $0.015 if you only output a simple 'yes' or 'no' and confidence rating.
 
 The issue arises when dealing with lower quality and dark images, where using a high setting might be necessary for more accuracy. This can result in a slightly higher cost.
+
+As an example, for processing these 12 images, and keep in mind I did about 3 requests which are not included here that were only for testing, I spent $0.07. A total of 5,582 tokens (4731 for context and 851 for generated). Most of the usage comes from the context. 
+
+## Pricing
+
+As an idea for pricing, you can find information [here](https://openai.com/pricing).
+
+![Pricing Screenshot](https://github.com/Monear/image_recognition/assets/60865948/016f2691-8405-4fa5-8169-1210a5c1173f)
 
 ## Examples
 
@@ -155,6 +157,8 @@ I'd like you to check this image for people. Please give me a rating between 1-1
 
 ---
 
+### Image 9
+
 ![Image](https://github.com/Monear/image_recognition/assets/60865948/71637172-3cf6-44e8-b4bd-19580d2716a5)
 
 **Prompt:**
@@ -197,6 +201,8 @@ I'd like you to check this image for people. Please give me a rating between 1-1
 
 ---
 
+### Image 11
+
 ![Image](https://github.com/Monear/image_recognition/assets/60865948/e20dba84-a564-43f5-8d9d-35cef11bfb34)
 
 **Prompt:**
@@ -220,6 +226,8 @@ Please rate your certainty from 1-10 regarding the presence of people in the pro
 - Total Tokens: 890
 
 ---
+
+### Image 12
 
 ![Image](https://github.com/Monear/image_recognition/assets/60865948/7e92a7b3-78ac-466a-8485-faf4070a3899)
 
