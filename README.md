@@ -5,7 +5,7 @@ This Python script checks if an image contains people. The script utilizes OpenA
 
 ## Usage
 
-After Image 6, token counts are included. When the model couldn't detect humans with a 'low' resolution setting, it was processed with a 'high' resolution, as per the documentation:
+After [image 6](https://github.com/Monear/image_recognition/blob/main/README.md#image-6), token counts are included. When the model couldn't detect humans with a 'low' resolution setting, it was processed with a 'high' resolution, as per the documentation:
 
 - **Low Resolution:**
   The model receives a low-res 512px x 512px version of the image, representing it with a budget of 65 tokens. This provides faster responses and consumes fewer input tokens for use cases that do not require high detail.
