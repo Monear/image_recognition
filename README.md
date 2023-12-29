@@ -21,13 +21,16 @@ The issue arises when dealing with lower quality and dark images, where using a 
 
 As an example, for processing these 12 images, and keep in mind I did about 3 requests which are not included here that were only for testing, I spent $0.07. A total of 5,582 tokens (4731 for context and 851 for generated). Most of the usage comes from the context. 
 
+
 ## Pricing
 
 As an idea for pricing, you can find information [here](https://openai.com/pricing).
 
 ![Pricing Screenshot](https://github.com/Monear/image_recognition/assets/60865948/016f2691-8405-4fa5-8169-1210a5c1173f)
 
-## Examples
+
+
+# Examples
 
 ### Image 1
 
