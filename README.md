@@ -34,3 +34,16 @@ Image:
 Prompt: How many people are in this picuture?
 
 Response:There are three people visible within the red circle in this picture. The image seems to be from a surveillance camera capturing a nighttime scene.
+
+Image:
+![image](https://github.com/Monear/image_recognition/assets/60865948/9e1cab38-a5ec-4c41-85f3-66c8a8b6f273)
+
+
+Prompt: How many people are in this picuture?
+
+Response(s)
+"detail": "low"
+It's not possible to discern any individuals in this image due to the distance and the focus being on the airplane and the airport ground equipment. The resolution and perspective do not allow for counting or identifying any people that might be present.
+
+"detail": "high"
+In the image, there doesn't appear to be any individuals visible given the resolution and the distance from which the photo was taken. The focus is on a parked aircraft surrounded by airport equipment and vehicles, so it's not possible to discern any people in the scene from this perspective.
