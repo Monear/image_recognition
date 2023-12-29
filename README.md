@@ -19,6 +19,12 @@ As an idea for pricing, you can the information here:
 https://openai.com/pricing
 
 
+____________
+
+My estimation is that the cost per 10 photos on a 'low' setting would be about $0.015 if you only ouptput a simple 'yes' or 'no' response from the model. 
+____________
+
+
 Examples:
 
 Image:
