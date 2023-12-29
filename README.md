@@ -19,7 +19,7 @@ My estimation is that the cost per 10 photos on a 'low' setting would be about $
 
 The issue arises when dealing with lower quality and dark images, where using a high setting might be necessary for more accuracy. This can result in a slightly higher cost.
 
-As an example, for processing these 12 images, and keep in mind I did about 3 requests which are not included here that were only for testing, I spent $0.07. A total of 5,582 tokens (4731 for context and 851 for generated). Most of the usage comes from the context. 
+As an example, for processing these 12 images (please note I did a total of 20 requests, 8 of which are not included here that were only for testing) I spent $0.07. A total of 5,582 tokens (4731 for context and 851 for generated). Most of the usage/cost comes from the context. 
 
 
 ## Pricing
