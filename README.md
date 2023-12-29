@@ -3,11 +3,15 @@ A python script to check if an image has people in it.
 
 Near the end, I start to include tokens counts. When an image wasn't able to be detected, I procesed it with a 'high' resolution as per the docs:
 
+
 ```
 low will disable the “high res” model. The model will receive a low-res 512px x 512px version of the image, and represent the image with a budget of 65 tokens. This allows the API to return faster responses and consume fewer input tokens for use cases that do not require high detail.
+
 high will enable “high res” mode, which first allows the model to see the low res image and then creates detailed crops of input images as 512px squares based on the input image size. Each of the detailed crops uses twice the token budget (65 tokens) for a total of 129 tokens.
 ```
+
 As an idea for pricing, you can the information here:
+
 
 <img width="1512" alt="Screenshot 2023-12-29 at 14 34 49" src="https://github.com/Monear/image_recognition/assets/60865948/016f2691-8405-4fa5-8169-1210a5c1173f">
 
